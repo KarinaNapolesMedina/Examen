@@ -1,1 +1,16 @@
+body {
+  background: #34495e; /*color de fondo de nuestro body */
+  color: #fff; /*Color del texto*/
+  /*le quitamos el relleno y el margen del navegador, para que la imagen y el texto esten centrados*/
+  padding: 0; /*relleno*/
+  margin: 0; /*margen*/
+  height: 100vh; /*Epacio en la partre de arriba*/
+  /*centrar el contenido*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+   flex-direction:column; /*ponemos el texto arriba de la imagen*/
+}
+
 
