@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mapa del tesoso</title> <!--nombre de la pagina o del juego-->
+    <link rel="stylesheet" href="css/main.css"> <!--Enlazamos nuestros estilos que se encuetran enla carpeta css -->
+  </head>
+  <body>
+
+    <h1>Encuentra el Tesoro!</h1> <!-- Titulo, en pantalla principal -->
+    <img src="img/treasuremap.png" width="400" height="400" id="map" draggable="false"> <!--direccion de imagen-->
+    <!--con la ayuda del id vamos a refernciar la imagen con el js-->
+    <!--se le agregan propidades como es el ancho y la altura-->
+
+    <p id="distance"></p> <!--parrafon en donde nos dira que tan cerca o lejos estamos-->
+
+    <script src="js/helper.js" charset="utf-8"></script> <!--refernciamos las funciones a reutilizar en el programa -->
+    <script src="js/game.js" charset="utf-8"></script> <!--enlazamos la logica del mapa-->
+
+  </body>
+</html>
